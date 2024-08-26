@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1550px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+.left_herf {
+  display: flex;
+  gap: 35px;
+  font-size: 24px;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.left_herf_a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+.Pages::after {
+  content: '';
+  width: 10px;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  background-image: url(./img/Icon3.svg);
+}
+.right_left {
+  width: 276px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+}
+.left_input {
+  width: 236px;
+  height: 55px;
+  border-radius: 25px;
+  background-color: rgb(243, 243, 243);
+  border: 0;
+}
+.left_img {
+  position: absolute;
+  top: 5;
+  right: 40px;
+}
+.right_right {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 30px;
+  border: 0px solid;
+}
+.hero2_container {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 90px;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url(./img/frukt.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.hero2_box {
+  width: 300px;
+  height: 370px;
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  background-color: #F9F8F8;
+}
+.hero2_img {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.hero2-pragrf1 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.hero2_pragrf {
+  width: 80px;
+  height: 20px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  border-radius: 10px;
+  background-color: #274C5B;
+}
+.hero_pragrf {
+  text-align: center;
+  color: #274C5B;
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.hero3 {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url(./img/limon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero3_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hero3_pragrf {
+  width: 350px;
+  font-weight: 800;
+  color: white;
+  font-size: 55px;
+}
+.hero3_input {
+  width: 300px;
+  height: 50px;
+  border: 0;
+  padding-left: 20px;
+  border-radius: 15px;
+}
+.hero3_btn {
+  width: 150px;
+  height: 50px;
+  border: 0;
+  color: white;
+  border-radius: 15px;
+  background-color: #274C5B;
+}
+.footer {
+  padding-top: 100px;
+}
+.footer_container {
+  width: 80%;
+  padding-left: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #1e3d59;
+}
+
+.footer-section p,
+.footer-section a {
+  margin-bottom: 10px;
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  color: #777;
+}
